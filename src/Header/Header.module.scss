@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  header {
+    display: flex;
+    justify-content: center;
+    background-color: #f55a5a;
+
+    .header_continer {
+      max-width: 550px;
+      width: 100%;
+
+      .header_content {
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+          margin-left: 7px;
+          font-family: 'Inter', sans-serif;
+          font-size: 14.46px;
+          font-weight: 500;
+          line-height: 17.5px;
+          letter-spacing: -0.075%;
+          text-align: left;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

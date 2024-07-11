@@ -1,0 +1,16 @@
+.Card {
+  display: flex;
+  .txt_content {
+    display: flex;
+    flex-direction: column;
+
+    .location {
+      font-family: Inter;
+      font-size: 10.24px;
+      font-weight: 400;
+      line-height: 12.39px;
+      letter-spacing: 0.17em;
+      text-align: left;
+    }
+  }
+}
