@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Card.module.scss';
+import loactionsvg from '/location.svg';
 
 const Card = (props) => {
   const data = props.data;
@@ -16,7 +17,11 @@ const Card = (props) => {
           </div>
           <div className={style.txt_content}>
             <p className={style.location}>
-              {card.location} <a href='#'>View on Google Maps</a>{' '}
+              <img src={loactionsvg} alt='localtion' />
+              {card.location}{' '}
+              <a href={card.googleMapsUrl} target='blank'>
+                View on Google Maps
+              </a>{' '}
             </p>
             <h2>{card.title}</h2>
             <span>

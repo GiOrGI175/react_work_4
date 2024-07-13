@@ -8,7 +8,7 @@ const Header = () => {
       <div className={style.header_continer}>
         <div className={style.header_content}>
           <div>
-            <img src={logo} alt='' />
+            <img src={logo} alt='logo' />
           </div>
           <h1>my travel journal.</h1>
         </div>

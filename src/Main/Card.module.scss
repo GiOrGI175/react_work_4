@@ -1,16 +1,67 @@
 .Card {
+  margin-bottom: 36px;
   display: flex;
+  align-items: center;
+
   .txt_content {
+    height: 100%;
+    padding: 12px 0px 12px 19px;
     display: flex;
     flex-direction: column;
 
     .location {
-      font-family: Inter;
+      margin-bottom: 7px;
+      display: flex;
+      font-family: 'Inter', sans-serif;
       font-size: 10.24px;
       font-weight: 400;
       line-height: 12.39px;
       letter-spacing: 0.17em;
       text-align: left;
+
+      img {
+        margin-right: 4px;
+      }
+
+      a {
+        margin-left: 12px;
+        font-family: 'Inter', sans-serif;
+        font-size: 10.24px;
+        font-weight: 400;
+        line-height: 12.39px;
+        text-align: center;
+        color: #918e9b;
+      }
+    }
+
+    h2 {
+      margin-bottom: 14px;
+      font-family: 'Inter', sans-serif;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 30.26px;
+      text-align: left;
+      color: #2b283a;
+    }
+
+    span {
+      margin-bottom: 9px;
+      font-family: 'Inter', sans-serif;
+      font-size: 10.24px;
+      font-weight: 700;
+      line-height: 12.39px;
+      text-align: left;
+      color: #2b283a;
+    }
+
+    .description {
+      max-width: 326px;
+      font-family: 'Inter', sans-serif;
+      font-size: 10.24px;
+      font-weight: 400;
+      line-height: 15.36px;
+      text-align: left;
+      color: #2b283a;
     }
   }
 }
